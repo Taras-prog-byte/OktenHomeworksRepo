@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.simpleText{
+    display: flex;
+    justify-content: inherit;
+    width: 90%;
+    margin: 0 auto;
+}
+.text{
+    font-family: "Times New Roman";
+    font-size: 14pt;
+    alignment: inherit;
+    color: midnightblue;
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.photo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+#dataName{
+    padding-left: 15px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    color: firebrick;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+}
+#image{
+    width: 400px;
+    height: auto;
+}
+#list{
+    font-family: "Times New Roman";
+    color: darkred;
+    font-weight: bold;
+    list-style-type: circle;
+}
+.list{
+    padding-left: 35px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    font-family: "Times New Roman";
+    alignment: center;
+    text-decoration: underline overline;
+}
